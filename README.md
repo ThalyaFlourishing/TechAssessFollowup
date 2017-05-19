@@ -19,8 +19,8 @@ Code for nthFibonacci
 function nthFibonacci(n) {
   var sequence = [0, 1];
 
-  for (var i = 2; i <= n; i++) {
-      sequence.push(sequence[i-1] + sequence[i-2]);
+  for (var i = 2; i <= n; i++Ï) {
+    sequence.push(sequence[i-1] + sequence[i-2]);
   }
 
   return sequence[n-1];
