@@ -15,7 +15,7 @@ How will I output the nth Fibonacci number?
 the sum of the values at the previous two indexes. Return the value at the nth index
 
 Code for nthFibonacci
-```
+```javascript
 function nthFibonacci(n) {
   var sequence = [0, 1];
 
